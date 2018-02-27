@@ -1,0 +1,44 @@
+﻿Design specifications
+
+Home
+font-family: Arial, Helvetica, sans-serif;
+
+Nav { color:  #595959;
+          font-size: 16px;
+          float: right;
+
+nav:link  { color: #2b5dad;
+
+PILAR TORRES  { color: #fff;
+                           font-size: 100px;
+                           margin: auto;
+
+enter { color: #fff;
+            font-size: 40px;
+            margin: auto;
+
+Copyright  { color:  #595959;
+                    font-size: 14px;
+                    float: left;
+
+About
+PILAR TORRES { color:  #595959
+
+text { color:  #595959
+          font-size: 16px;
+          text-align: justify
+
+Gallery
+p  { color:  #595959;
+       font-size: 16px;
+
+
+Contact
+
+input { color:  #595959;
+            font-size: 16px;
+
+send { background-color: #2b5dad;
+           color: #fff;
+           font-size: 20px;
+           margin: auto;
