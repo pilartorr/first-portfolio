@@ -38,12 +38,15 @@ li a:hover {
   color: #2b5dad;
 }
 
+.main-content::after {
+  content: '';
+  display: table;
+  clear: both;
 
-
-
+}
 .logo {
     margin: 0;
-    font-size: 23em;
+    font-size: 21.9em;
     color: #d17a02;
   }
 
@@ -76,38 +79,49 @@ h1.h1-bar a:hover {
 }
 
 .about {
-  width: 60%;
-  margin-top: 15vh;
-  margin-left: 10vw;
+  width: 63%;
+  margin-top: 10vh;
+
 }
 
+.img-text {
+  width: 80%;
+  margin: auto;
+}
 aside {
   position: absolute;
-  top: 20vh;
-  margin-top: 13vh;
-  margin-right: 10vw;
+  top: 26vh;
+  margin-top: 4vh;
+  margin-right: 15vw;
   width: 20%;
-  height: 57vh;
-  float: right;
+  height: 64%;
   right: 0;
   bottom: 411px;
   background-color: #f2f2f2;
   padding: 20px;
   overflow: auto;
+  border-radius: 5px;
+  border: 2px solid #2b5dad;
 }
 
-
-.p-aside {
-  font-size: 1.2rem;
-  text-align: left;
+  .p-aside {
   padding: 1em;
-}
-
-.img-text {
+  color: #595959;
   margin: auto;
 }
+
+
+figcaption a {
+   font-size: 1rem;
+   text-decoration: none;
+   color: #595959;
+   text-align: justify;
+}
+
+
 .a-img{
   width: 15vw;
+  padding: 0.5em;
 }
 p {
   text-align: justify;
@@ -117,8 +131,30 @@ p {
 /*PORTFOLIO//////////////////////////////////////////////////////////////////*/
 
 .gallery, img {
-  width: 80vw;
+  padding-top: 4em;
+  position: relative;
+  top: 0;
+  bottom: 2em;
+  width: 50vw;
   margin: auto;
+}
+
+img.width-img {
+  width: 70vw;
+  position: relative;
+  right: 10vw;
+}
+
+img#width-plano {
+  width: 55vw;
+  position: relative;
+  right: 3vw;
+}
+
+img#height-img {
+  width: 39vw;
+  position: relative;
+  left: 4vw;
 }
  /*CONTACT///////////////////////////////////////////////////////////////////*/
 
@@ -127,12 +163,11 @@ p {
  textarea {
    width: 100%;
    padding: 12px;
-   border: 1px solid #595959;;
+   border: 1px solid #595959;
    border-radius: 4px;
    box-sizing: border-box;
    margin-top: 6px;
    margin-bottom: 12px;
-   resize: vertical;
    color: #595959;
  }
 
